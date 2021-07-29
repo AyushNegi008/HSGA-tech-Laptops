@@ -425,7 +425,7 @@
     border: 10px solid black;
     display: flex;
     justify-content: center;
-    background: url(file:///D:/Website%20codes/HSGA-tech/img/w.jpg);
+    background: url('../img/w.jpg');
     background-size: 1113px;
     transition:all 2s linear; 
     transform: rotateX(180deg);
