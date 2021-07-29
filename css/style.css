@@ -411,7 +411,7 @@
     border: 10px solid black;
     display: flex;
     justify-content: center;
-    background: url('../img/w.jpg');
+    background: rgb(0,0,0,0.7) url('../img/w.jpg');
     background-size: 1113px;
     transition:all 4s linear; 
     
@@ -425,7 +425,7 @@
     border: 10px solid black;
     display: flex;
     justify-content: center;
-    background: url('../img/w.jpg');
+    background: rgb(0,0,0,0.7) url('../img/w.jpg');
     background-size: 1113px;
     transition:all 2s linear; 
     transform: rotateX(180deg);
