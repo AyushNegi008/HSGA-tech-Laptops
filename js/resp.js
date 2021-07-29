@@ -28,3 +28,44 @@ burger2.addEventListener('click',()=>{
 
 })
 
+fo = document.querySelector('.fo')
+pho = document.querySelector('.pho')
+
+
+fo.addEventListener('click',()=>{
+    pho.classList.toggle('ph');
+})
+
+
+start = document.querySelector('.start')
+star = document.querySelector('.star')
+
+
+start.addEventListener('click',()=>{
+    star.classList.toggle('sta');
+})
+
+
+
+
+br = document.querySelector('.br')
+me = document.querySelector('.me')
+bro = document.querySelector('.bro')
+
+
+br.addEventListener('click',()=>{
+    me.classList.toggle('m');
+    br.classList.toggle('bro');
+})
+
+
+
+reb = document.querySelector('.reb')
+rb = document.querySelector('.rb')
+re = document.querySelector('.re')
+
+
+reb.addEventListener('click',()=>{
+    rb.classList.toggle('rec');
+    reb.classList.toggle('re');
+})
