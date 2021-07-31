@@ -390,7 +390,7 @@
     background-color: #000000;
     display: flex;
     justify-content: center;
-    background: rgb(0,0,0,0.7)url(../img/top.jpg);
+    background: rgb(189 187 188);
     background-size: 1134px;
     transition:all 3.2s linear; 
     margin-top: -4px;
@@ -406,7 +406,7 @@
     background-color: #000000;
     display: flex;
     justify-content: center;
-    background: rgb(0,0,0,0.7)url(../img/top.jpg);
+    background: rgb(189 187 188);
     background-size: 1134px;
     transition:all 3.2s linear; 
 }
