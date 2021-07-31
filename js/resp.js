@@ -28,13 +28,7 @@ burger2.addEventListener('click',()=>{
 
 })
 
-fo = document.querySelector('.fo')
-pho = document.querySelector('.pho')
 
-
-fo.addEventListener('click',()=>{
-    pho.classList.toggle('ph');
-})
 
 
 start = document.querySelector('.start')
@@ -60,6 +54,8 @@ br.addEventListener('click',()=>{
 
 
 
+
+
 reb = document.querySelector('.reb')
 rb = document.querySelector('.rb')
 re = document.querySelector('.re')
@@ -69,3 +65,43 @@ reb.addEventListener('click',()=>{
     rb.classList.toggle('rec');
     reb.classList.toggle('re');
 })
+
+
+
+
+
+fo = document.querySelector('.fo')
+pho = document.querySelector('.pho')
+pr = document.querySelector('.pr')
+ne = document.querySelector('.ne')
+
+fo.addEventListener('click',()=>{
+    pho.classList.toggle('ph');
+    pr.classList.toggle('prev');
+    ne.classList.toggle('next');
+})
+
+
+
+
+
+
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
